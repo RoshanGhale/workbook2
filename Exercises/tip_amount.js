@@ -1,0 +1,2 @@
+var foodBill = 200;
+
