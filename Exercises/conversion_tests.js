@@ -6,15 +6,15 @@ var b = "55";
 var c = "402 Stevens";
 var d = "Number 5 ";
 
-aResult = parseInt(a);
+aResult = Number(a);
 console.log(aResult);
-console.log(parseInt(a));
+console.log(Number(a));
 
-bResult = parseInt(b);
-console.log(aResult);
+bResult = Number(b);
+console.log(bResult);
 
-cResult = parseInt(c);
-console.log(aResult);
+cResult = Number(c);
+console.log(cResult);
 
-dResult = parseInt(d);
-console.log(aResult);
+dResult = Number(d);
+console.log(dResult);
