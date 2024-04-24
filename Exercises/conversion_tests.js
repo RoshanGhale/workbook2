@@ -10,11 +10,11 @@ aResult = parseInt(a);
 console.log(aResult);
 console.log(parseInt(a));
 
-aResult = parseInt(b);
+bResult = parseInt(b);
 console.log(aResult);
 
-aResult = parseInt(c);
+cResult = parseInt(c);
 console.log(aResult);
 
-aResult = parseInt(d);
+dResult = parseInt(d);
 console.log(aResult);
