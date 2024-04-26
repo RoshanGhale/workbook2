@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World Website</title>
+    <title>Document</title>
   </head>
   <body>
-    <div id="messageDiv"></div>
+    <input type="button" value="say Hello" onclick="sayHi();" />
 
     <script>
       "use strict";
-      
-      var messageDiv = document.getElementById("messageDiv");
-      messageDiv.innerText = "Hello World";
+      function sayHi() {
+        alert("Hi there!");
+      }
     </script>
   </body>
 </html>

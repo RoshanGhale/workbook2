@@ -6,13 +6,15 @@
     <title>Hello World Website</title>
   </head>
   <body>
-    <div id="messageDiv"></div>
+    <input type="text" id="firstNameInput" placeholder="first name" value="" />
+    
 
     <script>
       "use strict";
-      
-      var messageDiv = document.getElementById("messageDiv");
-      messageDiv.innerText = "Hello World";
+
+      var firstName = document.getElementById("firstNameInput");
+      console.log(firstNameInput);
+      //firstNameInput.value = "karma";
     </script>
   </body>
 </html>
