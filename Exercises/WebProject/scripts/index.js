@@ -7,7 +7,7 @@ function init() {
   const divideButton = document.getElementById("divideButton");
 
   addButton.onclick = addCalculation;
-  subButton.onclick = subtractCalculation;
+  subButton.onclick = subtractCalculationCalculation;
   multiplyButton.onclick = multiplyCalculation;
   divideButton.onclick = divideCalculation;
 }
